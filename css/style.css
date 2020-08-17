@@ -522,9 +522,58 @@ textarea[placeholder] {
 	line-height: 24px;
 }
 
-.contacts-item {
+.footer-contacts-item {
 	display: block;
-	margin: 0 0 25px 0;
+	margin: 0 0 25px 28px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.fab {
+	font-size: 24px;
+	float: left;
+	position: absolute;
+	margin: 0;
+}
+
+.fas {
+	font-size: 22px;
+	float: left;
+	position: absolute;
+	margin: 0;
+}
+
+
+.footer-social {
+	width: 240px;
+	display: flex;
+}
+
+.footer-social-item {
+	display: block;
+	width: 52px;
+	height: 42px;
+	background-image: url(../img/social_buttons.png);
+}
+
+.footer-social-item:nth-child(1) {
+	background-position: 0 0;
+}
+
+.footer-social-item:nth-child(2) {
+	background-position: -48px 0;
+}
+
+.footer-social-item:nth-child(3) {
+	background-position: -96px 0;
+}
+
+.footer-social-item:nth-child(4) {
+	background-position: -144px 0;
+}
+
+.footer-social-item:nth-child(5) {
+	background-position: -192px 0;
 }
 
 .footer-copy {
